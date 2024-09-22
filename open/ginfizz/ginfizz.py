@@ -1,0 +1,5 @@
+n = int(input())
+print(f"{n*45} ml gin")
+print(f"{n*30} ml fresh lemon juice")
+print(f"{n*10} ml simple syrup")
+print(f"{n*1} slice"+"s"*(n>1) +" of lemon")
