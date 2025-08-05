@@ -1,0 +1,5 @@
+rolled = input()
+d, a = rolled.split('+')
+t,s = d.split('d')
+a,t,s = int(a), int(t), int(s)
+print(a + t * (s + 1) / 2)
