@@ -1,0 +1,5 @@
+input()
+ratio = float(input())
+n = int(input())
+s = sum(input() == "plast" for _ in range(n))
+print("Jebb" if s / n >= (1 - ratio) else "Neibb")
